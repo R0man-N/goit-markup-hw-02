@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -10,19 +12,7 @@ a {
     text-decoration: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+.visually-hidden {}
 
 .header {}
 
@@ -148,7 +138,7 @@ a {
     }
 
     .portfolio-name-text {
-        color: var(--SLATE, #434455);
+        color: #434455;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -157,35 +147,32 @@ a {
     }
 
     .footer {
-        background: var(--NAVY-BLUE, #2E2F42);
+        background-color: #2e2f42;
     }
 
     .footer-logo {
-        color: var(--CLOUD, #F4F4FD);
-        font-family: Raleway;
+        color: #4d5ae5;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
-        /* 116.667% */
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     }
 
-    .item-web {
-        color: var(--IRIS, #4D5AE5);
+    .item-studio {
+        color: #f4f4fd;
         font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.16;
-        /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
     }
 
     .footer-text {
-        color: var(--CLOUD, #F4F4FD);
+        color: #F4F4FD;
         font-size: 16px;
         line-height: 1.5;
-        /* 150% */
         letter-spacing: 0.02em;
     }
