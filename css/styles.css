@@ -1,7 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: #FFF;
+    font-style: normal;
 }
 
 ul {
@@ -19,7 +20,17 @@ a {
 .header-navigation {}
 
 .header-logo {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-item {
+    color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -31,7 +42,7 @@ a {
 .header-menu-list {}
 
 .header-menu-link {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -45,11 +56,11 @@ a {
 .contacts-link {}
 
 .hero {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: #2E2F42;
 }
 
 .hero-title {
-    color: var(--WHITE, #FFF);
+    color: #FFF;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -71,7 +82,7 @@ a {
 .advantages-item {}
 
 .advantages-subtitle {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.12;
@@ -80,99 +91,100 @@ a {
 }
 
 .advantages-item-text {
-    color: var(--SLATE, #434455);
+    color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
     /* 0.32/16 */
+}
 
-    .team {
-        background: var(--CLOUD, #F4F4FD);
-    }
+.team {
+    background: #F4F4FD;
+}
 
-    .our-team {
-        color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        /* 111.111% */
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-    }
+.our-team {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
 
-    .team-list {}
+.team-list {}
 
-    .team-list-item {}
+.team-list-item {}
 
-    .team-name-item {}
+.team-name-item {}
 
-    .team-name-text {}
+.team-name-text {}
 
-    .portfolio {}
+.portfolio {}
 
-    .our-portfolio {
-        color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        /* 111.111% */
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-    }
+.our-portfolio {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
 
-    .portfolio-list {}
+.portfolio-list {}
 
-    .portfolio-item {}
+.portfolio-item {}
 
-    .portfolio-name-item {
-        color: var(--NAVY-BLUE, #2E2F42);
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        /* 120% */
-        letter-spacing: 0.02em;
-    }
+.portfolio-name-item {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02em;
+}
 
-    .portfolio-name-text {
-        color: #434455;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.02em;
-    }
+.portfolio-name-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
 
-    .footer {
-        background-color: #2e2f42;
-    }
+.footer {
+    background-color: #2e2f42;
+}
 
-    .footer-logo {
-        color: #4d5ae5;
-        font-family: Raleway, sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    }
+.footer-logo {
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
-    .item-studio {
-        color: #f4f4fd;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    }
+.item-studio {
+    color: #f4f4fd;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
-    .footer-text {
-        color: #F4F4FD;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    }
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
