@@ -50,22 +50,23 @@ a {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .contacts {}
 
 .contacts-list {}
 
-.contacts-link {
+.contacts-link-item {
     color: #434455;
     font-family: Roboto;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em
 }
 
-.contacts-link: :hover .contacts-link: :focus {
+.contacts-link-item:hover .contacts-link-item:focus {
     color: #404BBF;
 }
 
@@ -155,10 +156,12 @@ a {
 
 .team-list {}
 
-.team-list-item {}
+.team-list-item {
+    background-color: #FFFFFF;
+}
 
 .team-name-item {
-    #2E2F42;
+    color: #2E2F42;
     text-align: center;
     font-family: Roboto;
     font-size: 20px;
@@ -168,7 +171,7 @@ a {
 }
 
 .team-name-text {
-    #434455;
+    color: #434455;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
